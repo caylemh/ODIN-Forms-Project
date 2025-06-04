@@ -83,10 +83,17 @@
 
         .form input:valid {
             border-color: green;
+            background-color: rgb(225, 255, 225);
         }
 
-        #pswd:invalid, #pswd-confirm:invalid {
+        .form input:focus {
+            border-color: blue;
+            box-shadow: 1px 1px 3px grey inset;
+        }
+
+        .form input:invalid {
             border-color: red;
+            background-color: #ffe7e7;
         }
 
         .form input {
